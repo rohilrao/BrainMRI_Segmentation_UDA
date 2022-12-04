@@ -1,4 +1,4 @@
-# Entropy guided Unspervised domain adaptation
+# Entropy-guided Unspervised Domain Adaptation for Segmentation of Brain MRI Scans
 This project is an implementation of the research paper: <a href="https://www.researchgate.net/publication/345238526_Entropy_Guided_Unsupervised_Domain_Adaptation_for_Cross-Center_Hip_Cartilage_Segmentation_from_MRI">Entropy Guided Unsupervised Domain Adaptation for Cross-Center Hip Cartilage Segmentation from MRI.</a> The authors of this paper have not released the source code.
 We make two essential changes:
 <li>We replace the orignal segmentation backbone with a U-Net for reasons described in our report.</li>
@@ -7,6 +7,13 @@ We make two essential changes:
 ## Snapshot of results:
 ![alt text](https://github.com/rohilrao/BrainMRI_Segmentation_UDA/blob/main/src/images/AllDomainsPlot.png)
 
+## Contents of this repo:
+<ul>
+<li><a href="https://github.com/rohilrao/BrainMRI_Segmentation_UDA/tree/main/src/code">Code files</a></li>
+<li><a href="https://github.com/rohilrao/BrainMRI_Segmentation_UDA/blob/main/src/Lab_presentation.pdf
+">Presentation</a> with an overview of the project</li>
+<li><a href="https://github.com/rohilrao/BrainMRI_Segmentation_UDA/blob/main/src/Lab_report.pdf">Report</a> with descriptions of our results</li>
+</ul>
 
 ## Tasks performed:
 <ul>

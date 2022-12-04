@@ -4,8 +4,8 @@ We make two essential changes:
 <li>We replace the orignal segmentation backbone with a U-Net for reasons described in our report.</li>
 <li>Our target dataset (<a href="https://sites.google.com/view/calgary-campinas-dataset/home">CC-359</a>) is different from the orignal paper.</li>
 
-## Snapshot of our results:
-
+## Snapshot of results:
+![alt text](https://github.com/rohilrao/BrainMRI_Segmentation_UDA/blob/main/src/images/AllDomainsPlot.png)
 
 
 ## Tasks performed:
@@ -59,3 +59,7 @@ present various successful domain adaptation methods, especially when the domain
 
 3. Adapt your folder structure accordingly. Alternatively make changes to the paths in the Dataset class of the code.
 4. All other instructions and pointers are also provided in the code files.
+
+
+## Snapshot of different entropy guided models:
+![alt text](https://github.com/rohilrao/BrainMRI_Segmentation_UDA/blob/main/src/images/entropy_plots_split.jpg)
